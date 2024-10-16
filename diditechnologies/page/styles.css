@@ -1,0 +1,501 @@
+
+
+
+h5 {
+    font-family: "Montserrat", serif;
+    font-weight: 400 ;
+    font-size: 32px ;
+    text-align: center;
+}
+
+h3{
+    font-family: "Barlow Condensed", sans-serif !important;
+
+}
+section{
+    padding: 60px 0 !important;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* About Us Section */
+.about-us-section {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #E7DCD6;
+}
+
+.about-us-section h2 {
+    font-size: 2.5em;
+    color: #000;
+    font-family: "Barlow Condensed", sans-serif !important;
+
+}
+
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 1em;
+}
+
+.about-images img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.about-content {
+    margin-top: 2em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content-main{
+    width: 50%;
+}
+.about-content-main h3{
+  text-align: center;
+  margin-bottom: 1rem;
+
+}
+.about-content-main p{
+    text-align: center
+  }
+.about-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 1.5em;
+}
+
+.column h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+ol{
+    padding: 1rem;
+}
+
+.column {
+    width: 100%;
+}
+
+.about-images .small-img {
+    height: 150px;
+    width: 150px;
+}
+
+.digital-skills-section {
+    background-color: #EDE3DE;
+    padding: 2em 0;
+  }
+  
+  .digital-skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .digital-skills-text {
+    width: 60%;
+  }
+  
+  .digital-skills-text h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+  
+  .digital-skills-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1.5em;
+  }
+  
+  .digital-skills-text ul {
+    margin: 1em 0;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .digital-skills-text ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .digital-skills-image {
+    width: 35%;
+    margin-left: 1em;
+  }
+  
+  .digital-skills-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .our-approach {
+    background-color: #fff;
+    text-align: center;
+    padding: 3em 1em;
+}
+  
+  .our-approach h2 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 1.5px;
+    color: #001514;
+    margin-bottom: -3px;
+  }
+  
+  .our-approach p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #004444;
+    margin-bottom: 2em;
+  }
+  
+  .approach-steps {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0;
+  }
+  
+  .step {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .step-icon {
+    background-color: #EA7E41;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .step p {
+    font-size: 1.1em;
+    color: #004444;
+  }
+  
+  .join-movement h3 {
+    font-size: 1.6em;
+    color: #001514;
+    margin-bottom: 1em;
+  }
+  
+  .join-movement p {
+    font-size: 1.2em;
+    color: #004444;
+    margin-bottom: 2em;
+  }
+  
+  .enroll-button {
+    background-color: #EA7E41;
+    color: white;
+    border: none;
+    padding: 0.75em 2em;
+    font-size: 1.2em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .enroll-button:hover {
+    background-color: #E66A2B;
+  }
+  .faq-section {
+    padding: 2em;
+    font-family: "Montserrat", serif;
+    text-align: center;
+  }
+  
+  .faq-section h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #003333;
+    margin-bottom: 1.5em;
+  }
+  
+  .faq {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .faq-item {
+    background-color: transparent;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-question {
+    width: 100%;
+    padding: 1em;
+    background-color: transparent;
+    font-family: "Montserrat", serif;
+    border: none;
+    font-size: 1.1em;
+    font-weight: medium;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 1em;
+    font-size: 1em;
+    font-family: "Montserrat", serif;
+    color: #333;
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  
+  .faq-item.active .faq-question {
+    background-color: #e0e0e0;
+  }
+  
+  /* Plus/Minus icon */
+  .faq-question::after {
+    content: '+';
+    font-size: 1.5em;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-item.active .faq-question::after {
+    content: '-';
+    transform: rotate(180deg);
+  }
+  .courses img{
+    width: 100%;
+  }
+
+  .contact-section {
+    font-family: "Montserrat", serif;
+    padding: 2em 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-info-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+  
+  .contact-info {
+    background-color: #EA7E41;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin: 1rem 0;
+  }
+  
+  .contact-info h2, .contact-info h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  .social-icons{
+    display: flex;
+    justify-self: flex-end;
+    flex: end;
+  }
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contact-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 0 1 55%;
+    text-align: left;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    min-height: 120px;
+  }
+  
+  .contact-form button {
+    background-color: #EA7E41;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff5722;
+  }
+  
+  .map-container {
+    margin-top: 2em;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  iframe {
+    border-radius: 8px;
+    border: 0;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .approach-steps {
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+  
+    .step {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: .0em;
+    }
+    .our-approach p {
+      margin-bottom: 1rem;
+    }
+    .contact-form{
+      padding: 5px;
+    }
+    .about-page h5 {
+        font-family: "Montserrat", serif;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+    }
+  }
+  
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .digital-skills-content {
+      flex-direction: column;
+      /* text-align: center; */
+    }
+  
+    .digital-skills-text {
+      width: 100%;
+    }
+  
+    .digital-skills-image {
+      width: 100%;
+      margin: 2em 0 0 0;
+    }
+  }
+  
+
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: flex;
+    }
+
+    .about-images {
+        gap: 1em;
+    }
+
+    .about-columns {
+        flex-direction: column;
+    }
+    .about-images img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    .about-images .small-img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact-info-form {
+      flex-direction: column;
+      margin-bottom: 22em;
+    }
+
+.about-content-main{
+    width: 100%;
+}
+.about-content-main p {
+    width: 100%;
+    text-align: center !important;
+    margin-bottom: 1rem;
+}
+
+.join-movement p {
+    font-size: 1em;
+}
+
+}
